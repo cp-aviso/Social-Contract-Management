@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Contract DApp</title>
+</head>
+<body>
+    <h1>Simple Contract DApp</h1>
+    <form id="contractForm">
+        <input type="number" id="newNumber" placeholder="Enter a number">
+        <button type="button" onclick="setNumber()">Set Number</button>
+    </form>
+    <p>Stored Number: <span id="displayNumber"></span></p>
+    <form id="messageForm">
+        <input type="text" id="newMessage" placeholder="Enter a message">
+        <button type="button" onclick="setMessage()">Set Message</button>
+    </form>
+    <p>Stored Message: <span id="displayMessage"></span></p>
+
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
